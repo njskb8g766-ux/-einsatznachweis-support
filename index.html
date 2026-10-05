@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einsatznachweis – Support</title>
+  <meta name="description" content="Support-Seite für die iOS-App Einsatznachweis.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --accent: #007aff;
+      --border: #d2d2d7;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111113;
+        --card: #1c1c1e;
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --border: #38383a;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 0 0 8px;
+      letter-spacing: -1px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 18px;
+      margin: 0;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 26px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact {
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <header>
+      <h1>Einsatznachweis</h1>
+      <p class="subtitle">Support</p>
+    </header>
+
+    <section>
+      <h2>Über die App</h2>
+      <p>
+        Einsatznachweis ist eine iOS-App zur einfachen digitalen Dokumentation
+        von Fahrdiensteinsätzen.
+      </p>
+      <p>
+        Einsätze können direkt auf dem iPhone erfasst und die geleistete
+        Arbeitszeit automatisch berechnet werden. Am Monatsende kann daraus
+        ein PDF-Einsatznachweis erstellt und geteilt werden.
+      </p>
+    </section>
+
+    <section>
+      <h2>Funktionen</h2>
+      <ul>
+        <li>Erfassung von Datum, Beginn und Ende eines Einsatzes</li>
+        <li>Erfassung von Kunde, Tour oder Kürzel</li>
+        <li>Automatische Berechnung der Arbeitszeit</li>
+        <li>Dokumentation von Urlaub und Abwesenheiten</li>
+        <li>Monatsabschluss mit Kennzeichen und Kilometerstand</li>
+        <li>Digitale Unterschrift direkt auf dem iPhone</li>
+        <li>Automatische Erstellung eines PDF-Einsatznachweises</li>
+        <li>PDF einfach teilen oder weiterleiten</li>
+        <li>Aktuellen Tourenplan per Kamera scannen</li>
+        <li>Tourenplan als PDF oder Bild importieren</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Support</h2>
+      <p>
+        Du hast einen Fehler gefunden oder eine Frage zur App?
+        Schreib mir gerne eine E-Mail.
+      </p>
+      <p class="contact">
+        <strong>E-Mail:</strong>
+        <a href="mailto:ichmachs34@gmail.com">ichmachs34@gmail.com</a>
+      </p>
+      <p>
+        Beschreibe bei einem Fehler möglichst kurz, was passiert ist und
+        welche Schritte dazu geführt haben. Wenn möglich, kannst du auch
+        einen Screenshot mitsenden.
+      </p>
+    </section>
+
+    <section>
+      <h2>Datenschutz</h2>
+      <p>
+        Einsatznachweis ist für die lokale Dokumentation auf dem iPhone
+        ausgelegt. Die erfassten Einsatzdaten werden nicht für einen
+        externen Server benötigt.
+      </p>
+      <p>
+        Der aktuell hinterlegte Tourenplan wird lokal gespeichert.
+        Wird ein neuer Tourenplan hinzugefügt, ersetzt dieser den bisherigen.
+        Es wird kein Tourenplan-Archiv geführt.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Mathias Pochodzala · Einsatznachweis
+    </footer>
+
+  </main>
+</body>
+</html>
